@@ -12,6 +12,8 @@ With a short list of some of my experiences:
 - Frontend | Vue with NPM & Yarn
 - Cloud | AWS (Cloudformation, cloudfront, lambda's, gateway integration etc.)
 
+::slider
+
 ## Want more info about me?
 
 Sent me a message though one of the following social media outlets to get my full Curriculum Vitae.

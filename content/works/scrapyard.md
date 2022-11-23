@@ -1,9 +1,7 @@
 ---
-extends: _layouts.work
 title: Scrapyard
 author: Gerben Veenhof
 date: 2020-10-28
-section: content
 header_image: /assets/images/works/scrapyard
 category: Java
 links:

@@ -1,9 +1,7 @@
 ---
-extends: _layouts.work
 title: C.A.T.E Discord Bot
 author: Gerben Veenhof
 date: 2020-11-26
-section: content
 header_image: /assets/images/works/aq3d_bot
 category: Java
 links:

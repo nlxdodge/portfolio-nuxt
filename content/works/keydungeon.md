@@ -1,9 +1,7 @@
 ---
-extends: _layouts.work
 title: KeyDungeon
 author: Gerben Veenhof
 date: 2021-08-09
-section: content
 header_image: /assets/images/works/keydungeon
 category: PHP/JS
 links:

@@ -1,9 +1,7 @@
 ---
-extends: _layouts.work
 title: Korfbal Trainer
 author: Gerben Veenhof
 date: 2021-08-06
-section: content
 header_image: /assets/images/works/korfbal_trainer
 category: Typescript/Vue
 links:
