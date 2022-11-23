@@ -10,12 +10,12 @@
   "devDependencies": {
     "@nuxt/content": "^2.2.2",
     "nuxt": "^3.0.0",
+    "sass": "^1.56.1",
     "sitemap": "^7.1.1"
   },
   "packageManager": "yarn@3.3.0",
   "dependencies": {
     "@glidejs/glide": "^3.6.0",
-    "@nuxt/kit": "^3.0.0",
     "include-media": "^1.4.10",
     "normalize.css": "^8.0.1",
     "prismjs": "^1.29.0"
