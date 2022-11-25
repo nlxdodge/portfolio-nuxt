@@ -1,0 +1,29 @@
+name: Deploy to Web
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build and Deploy
+    steps:
+      - name: Checkout master branch
+        uses: actions/checkout@v2
+      - name: Install Yarn
+        run: 
+          corepack enable
+          corepack prepare yarn@stable --activate
+      - name: Install dependencies
+        run: yarn install
+      - name: Generate production files
+        run: yarn generate
+      - name: Deploy files Production
+        uses: sebastianpopp/ftp-action@releases/v2
+        with:
+          host: ${{ secrets.FTP_DOMAIN }}
+          user: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          localDir: ./build_production
