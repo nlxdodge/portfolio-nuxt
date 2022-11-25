@@ -1,0 +1,15 @@
+/* Plugin SCSS */
+@import "~@normalize.css/normalize.css";
+@import "~include-media/dist/_include-media.scss";
+@import "~@glidejs/glide/src/assets/sass/glide.core.scss";
+//TODO THIS
+
+// @import "plugins/fontawesome/fontawesome";
+// @import "plugins/fontawesome/solid";
+// @import "plugins/fontawesome/brands";
+
+/* Site SCSS */
+@import "_mixins";
+@import "_settings";
+@import "_defaults";
+@import "_fonts";

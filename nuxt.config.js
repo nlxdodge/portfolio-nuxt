@@ -13,7 +13,7 @@ export default defineNuxtConfig({
         css: {
             preprocessorOptions: {
                 scss: {
-                    additionalData: '@use "@/assets/style/_variables.scss" as *; @use "@glidejs/glide/src/assets/sass/glide.core.scss" as *; @use "include-media/dist/_include-media.scss" as *;'
+                    additionalData: '@use "@/assets/css/globals.scss" as *;'
                 }
             }
         }
