@@ -1,11 +1,7 @@
 ---
-extends: _layouts.post
 title: Advent of Code 2021
 author: Gerben Veenhof
 date: 2021-12-27
-section: content
-links:
-- https://github.com/nlxdodge/Advent-Of-Code
 ---
 
 This year I had the ambition to actually use Java for Advent of Code (AOC). And needless to say, I got pretty far before falling down because of time issues and trying to solve it in a good way. What I actually should have done is use the quick and dirty way where possible so that I didn't lose a lot of time.
@@ -34,3 +30,7 @@ Example:
 int size = 10;
 String[][][] = new String[size][size][size];
 ```
+
+::content-button{url="https://github.com/nlxdodge/Advent-Of-Code" icon="fab fa-github"}
+Advent of Code
+::

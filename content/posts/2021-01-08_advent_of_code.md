@@ -1,11 +1,7 @@
 ---
-extends: _layouts.post
 title: Advent of Code 2020
 author: Gerben Veenhof
 date: 2021-01-08
-section: content
-links:
-- https://github.com/nlxdodge/Advent-Of-Code
 ---
 
 Each year there is the [Advent of Code](https://adventofcode.com/). In which you can compete to be the fastest programmer of the north pole 🎅🎄🛷.
@@ -45,3 +41,7 @@ For our last assignment of our minor we always had to have a test coverage of mo
 So I'm still not done with learning the small details of Python. Or for that fact any language. But we will get there eventually.
 
 Next on our target list is Java for my last project for school.
+
+::content-button{url="https://github.com/nlxdodge/Advent-Of-Code" icon="fab fa-github"}
+Advent of Code
+::

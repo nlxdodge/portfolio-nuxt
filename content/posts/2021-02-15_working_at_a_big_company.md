@@ -1,9 +1,7 @@
 ---
-extends: _layouts.post
 title: Working at a big company
 author: Gerben Veenhof
 date: 2021-02-15
-section: content
 ---
 
 This year I am going to complete my study by finishing it with my thesis. Which I am very thrilled about, because I could choose the subject myself this time.

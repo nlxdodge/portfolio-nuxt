@@ -2,7 +2,7 @@
 title: Scrapyard
 author: Gerben Veenhof
 date: 2020-10-28
-header_image: /assets/images/works/scrapyard
+header_image: /images/works/scrapyard
 category: Java
 links:
 - https://github.com/nlxdodge/scrapyard

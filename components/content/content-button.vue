@@ -1,17 +1,17 @@
 <template>
-  <a class="button" :href="props.link" :aria-label="props.text">
-    <i aria-hidden="true" class="fas fa-chevron-circle-left"></i>
-    {{ props.text }}
+  <a class="button" :href="props.url" :aria-label="props.text">
+    <i aria-hidden="true" :class="icon"></i>
+    <slot />
   </a>
 </template>
 
 <script setup>
 const props = defineProps({
-  text: {
-    default: "Back",
-  },
-  link: {
+  url: {
     default: "#",
+  },
+  icon: {
+    default: "fas fa-chevron-circle-left",
   },
 });
 </script>
@@ -21,7 +21,6 @@ const props = defineProps({
   display: inline-block;
   background-color: $template-color-accent;
   font-family: $template-header-font;
-  font-size: 1em;
   color: $template-color;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
@@ -29,10 +28,16 @@ const props = defineProps({
   width: 100%;
   padding: 12px 0;
   margin-bottom: 10px;
+  text-align: center;
 
   i {
     font-size: 1.2em;
     vertical-align: text-bottom;
+  }
+
+  p {
+    margin-left: 10px;
+    display: inline;
   }
 
   &:hover {
@@ -41,9 +46,11 @@ const props = defineProps({
   }
 
   @include media(">=tablet") {
-    padding: 14px 24px;
+    display: inline-flexbox;
+    padding: 12px 24px;
     width: auto;
-    margin: auto;
+
+    margin-right: 25px;
   }
 }
 </style>

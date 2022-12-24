@@ -9,12 +9,12 @@
           >
             <picture>
               <source
-                srcset="/assets/images/works/korfbal_trainer.webp"
+                srcset="/images/works/korfbal_trainer.png"
                 type="image/webp"
                 loading="lazy"
               />
               <img
-                src="/assets/images/works/korfbal_trainer.png"
+                src="/images/works/korfbal_trainer.png"
                 alt="Korfbal Trainer"
                 loading="lazy"
                 width="1024"
@@ -28,12 +28,12 @@
           <a href="/work/keydungeon/" aria-label="Check the Keydungeon project">
             <picture>
               <source
-                srcset="/assets/images/works/keydungeon.webp"
+                srcset="/images/works/keydungeon.png"
                 type="image/webp"
                 loading="lazy"
               />
               <img
-                src="/assets/images/works/keydungeon.png"
+                src="/images/works/keydungeon.png"
                 alt="Keydungeon"
                 loading="lazy"
                 width="1024"
@@ -47,12 +47,12 @@
           <a href="/work/aq3d_bot/" aria-label="Check the AQ3D Bot project">
             <picture>
               <source
-                srcset="/assets/images/works/aq3d_bot.webp"
+                srcset="/images/works/aq3d_bot.png"
                 type="image/webp"
                 loading="lazy"
               />
               <img
-                src="/assets/images/works/aq3d_bot.png"
+                src="/images/works/aq3d_bot.png"
                 alt="AQ3D Bot"
                 loading="lazy"
                 width="1024"
@@ -69,12 +69,12 @@
           >
             <picture>
               <source
-                srcset="/assets/images/works/scrapyard.webp"
+                srcset="/images/works/scrapyard.png"
                 type="image/webp"
                 loading="lazy"
               />
               <img
-                src="/assets/images/works/scrapyard.png"
+                src="/images/works/scrapyard.png"
                 alt="Scrapyard Mod"
                 loading="lazy"
                 width="1024"
@@ -96,8 +96,8 @@
 </template>
 
 <script setup>
-import Glide from "@glidejs/glide"
-import { onMounted } from "vue"
+import Glide from "@glidejs/glide";
+import { onMounted } from "vue";
 
 onMounted(() => {
   new Glide(".glide", {

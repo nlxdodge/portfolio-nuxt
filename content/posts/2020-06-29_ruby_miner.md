@@ -1,10 +1,7 @@
 ---
-extends: _layouts.post
 title: Ruby Miner
 author: Gerben Veenhof
 date: 2020-06-29
-section: content
-link: https://github.com/nlxdodge/Advent-Of-Code
 ---
 
 In my current year I was learning Ruby as part of my internship. In the beginning I stuggled a lot to understand the dynamic language as is.
@@ -15,6 +12,14 @@ While we did get tought the basics of Dynamic languages, we has to learn a lot o
 
 As a test to see if I could actually use Ruby well, I started the 2019 [Advent of Code](https://adventofcode.com/2019). While at first I still had some things to learn because I never used them. The basics where there. And could quickly adapt to new Gems to use.
 
-![Advent of Code](/assets/images/posts/advent_of_code.webp)
+![Advent of Code](/images/posts/advent_of_code.webp)
 
 While I still am not currently done with 2019, in my spare time I try to finish it before the next one comes out.
+
+::content-button{url="https://github.com/nlxdodge/Advent-Of-Code" icon="fab fa-github"}
+Advent of Code
+::
+
+::content-button{url="https://www.ruby-lang.org/en/" icon="fas fa-gem"}
+Ruby
+::

@@ -1,6 +1,32 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     ssr: false,
+    content: {
+        highlight: {
+            theme: {
+                default: 'monokai',
+                light: 'github-light'
+            },
+            preload: [
+                'java',
+                'c#',
+                'cpp',
+                'scss',
+                'rust',
+                'xml',
+                'sql',
+                'docker',
+                'yaml',
+                'markdown',
+                'ruby',
+                'javascript',
+                'json',
+                'kotlin',
+                'python',
+                'typescript'
+            ]
+        }
+    },
     modules: [
         '@nuxt/content',
     ],
@@ -13,9 +39,19 @@ export default defineNuxtConfig({
         css: {
             preprocessorOptions: {
                 scss: {
-                    additionalData: '@use "@/assets/css/globals.scss" as *;'
+                    additionalData: '@import "~/assets/scss/globals.scss";'
                 }
             }
+        }
+    },
+    app: {
+        head: {
+            meta: [
+                {
+                    name: 'viewport',
+                    content: 'width=device-width, initial-scale=1'
+                }
+            ]
         }
     }
 })

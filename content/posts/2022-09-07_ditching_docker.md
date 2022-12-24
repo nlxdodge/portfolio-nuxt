@@ -1,9 +1,7 @@
 ---
-extends: _layouts.post
 title: An actual usefull Docker Alternative
 author: Gerben Veenhof
-date: 2022-10-02
-section: content
+date: 2022-09-07
 ---
 
 Using something else then Docker, is there even something else just as good? I get the question a lot on my work. Because lots of developers are acustomed to having the Docker GUI instead of using the CLI interface.

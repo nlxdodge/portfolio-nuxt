@@ -16,8 +16,8 @@
   "packageManager": "yarn@3.3.0",
   "dependencies": {
     "@glidejs/glide": "^3.6.0",
+    "add": "^2.0.6",
     "include-media": "^1.4.10",
-    "normalize.css": "^8.0.1",
-    "prismjs": "^1.29.0"
+    "yarn": "^1.22.19"
   }
 }

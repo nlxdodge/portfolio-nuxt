@@ -2,7 +2,7 @@
 title: KeyDungeon
 author: Gerben Veenhof
 date: 2021-08-09
-header_image: /assets/images/works/keydungeon
+header_image: /images/works/keydungeon
 category: PHP/JS
 links:
 - https://key.gerbenveenhof.nl/

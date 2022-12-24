@@ -2,7 +2,7 @@
 title: C.A.T.E Discord Bot
 author: Gerben Veenhof
 date: 2020-11-26
-header_image: /assets/images/works/aq3d_bot
+header_image: /images/works/aq3d_bot
 category: Java
 links:
 - https://github.com/nlxdodge/C.A.T.E

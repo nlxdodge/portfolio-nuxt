@@ -1,11 +1,9 @@
-/* External SCSS Sheets */
-@import "normalize.css/normalize.css";
+// /* External SCSS Sheets */
 @import "include-media/dist/_include-media.scss";
 @import "@glidejs/glide/src/assets/sass/glide.core.scss";
-
-// @import "plugins/fontawesome/fontawesome";
-// @import "plugins/fontawesome/solid";
-// @import "plugins/fontawesome/brands";
+@import "../scss/fontawesome/fontawesome.scss";
+@import "../scss/fontawesome/solid.scss";
+@import "../scss/fontawesome/brands.scss";
 
 /* Internal SCSS Sheets */
 @import "_mixins";
