@@ -12,18 +12,22 @@ jobs:
     steps:
       - name: Checkout master branch
         uses: actions/checkout@v2
-      - name: Install Yarn
+      - name: Install NodeJS 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install Yarn v2
         run: 
           corepack enable
           corepack prepare yarn@stable --activate
       - name: Install dependencies
         run: yarn install
       - name: Generate production files
-        run: yarn generate
+        run: npx nuxi generate
       - name: Deploy files Production
         uses: sebastianpopp/ftp-action@releases/v2
         with:
           host: ${{ secrets.FTP_DOMAIN }}
           user: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          localDir: ./build_production
+          localDir: ./.output
