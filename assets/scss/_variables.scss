@@ -2,19 +2,22 @@ html {
     --template-color: #202020;
     --template-color-opposing: #ffffff;
     --template-color-accent: #f79f1f;
-    --template-color-accent-opposing: #cc8720;
+    --template-color-accent-rgb: 247, 159, 31;
+    --template-color-accent-opposing: #7a5113;
 
     .light {
         --template-color: #ffffff;
         --template-color-opposing: #202020;
         --template-color-accent: #00887d;
-        --template-color-accent-opposing: #00b8a8;
+        --template-color-accent-rgb: 0, 136, 125;
+        --template-color-accent-opposing: #00d3c2;
     }
 }
 
 $template-color: var(--template-color);
 $template-color-opposing: var(--template-color-opposing);
 $template-color-accent: var(--template-color-accent);
+$template-color-accent-rgb: var(--template-color-accent-rgb);
 $template-color-accent-opposing: var(--template-color-accent-opposing);
 
 $template-default-font: 'GeneralSans-Regular', Verdana, Arial, sans-serif;

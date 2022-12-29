@@ -47,15 +47,16 @@ const query = {
     }
 
     img {
+      border-radius: 10px;
       width: 100%;
       height: 245px;
       object-fit: cover;
-      border: 1px solid transparent;
+      border: 3px solid transparent;
       transition: all 0.2s ease-in-out;
     }
 
-    &:hover > img {
-      border: 1px solid $template-color-accent;
+    &:hover > picture > img {
+      border: 3px solid rgba($template-color-accent-rgb, .25);
     }
 
     .work-title {

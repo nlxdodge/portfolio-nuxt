@@ -117,19 +117,22 @@ onMounted(() => {
     padding: 20px;
 
     .glide__bullet {
-      background-color: #fff;
+      background-color: $template-color-accent-opposing;
+      @include transition('all 0.3s ease-in-out');
       margin: 0 6px;
       width: 20px;
       height: 20px;
-      opacity: 0.4;
       border-radius: 100%;
 
-      &:hover {
+      &:hover, &:focus {
         cursor: pointer;
+        @include transition('all 0.3s ease-in-out');
+        border: 3px solid $template-color-accent;
       }
 
       &.glide__bullet--active {
-        opacity: 1;
+        @include transition('all 0.3s ease-in-out');
+        background-color: $template-color-accent;
       }
     }
   }
@@ -140,6 +143,7 @@ onMounted(() => {
       height: 450px;
 
       img {
+        border-radius: 10px;
         height: 100%;
         position: absolute;
         top: 0;
