@@ -12,7 +12,7 @@ With a short list of some of my experiences:
 - Frontend | Vue with NPM & Yarn
 - Cloud | AWS (Cloudformation, cloudfront, lambda's, gateway integration etc.)
 
-::slider
+::content-slider
 
 ## Want more info about me?
 

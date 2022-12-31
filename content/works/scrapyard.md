@@ -4,13 +4,15 @@ author: Gerben Veenhof
 date: 2020-10-28
 header_image: /images/works/scrapyard
 category: Java
-links:
-- https://github.com/nlxdodge/scrapyard
 ---
 
 Scrapyard is my first ever Minecraft mod that is basically a bunch of ideas gathered together into one mod.
 Right now it's still in production as I am trying to learn the new Fabric API as that works So much better than Forge.
 Check the link for my up to date repository.
+
+::content-button{url="https://github.com/nlxdodge/scrapyard" icon="fab fa-github"}
+Scrapyard
+::
 
 The main reason for getting with building my mod again, is that we are actively using java again in our classes. And I wanted to understand Gradle better.
 
