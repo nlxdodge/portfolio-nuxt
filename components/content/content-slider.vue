@@ -25,7 +25,7 @@
           </a>
         </li>
         <li class="glide__slide">
-          <a href="/work/keydungeon/" aria-label="Check the Keydungeon project">
+          <NuxtLink to="/work/keydungeon/" aria-label="Check the Keydungeon project">
             <picture>
               <source
                 srcset="/images/works/keydungeon.png"
@@ -41,10 +41,10 @@
               />
             </picture>
             <p>Keydungeon <span>(PHP)</span></p>
-          </a>
+          </NuxtLink>
         </li>
         <li class="glide__slide">
-          <a href="/work/aq3d_bot/" aria-label="Check the AQ3D Bot project">
+          <NuxtLink to="/work/aq3d_bot/" aria-label="Check the AQ3D Bot project">
             <picture>
               <source
                 srcset="/images/works/aq3d_bot.png"
@@ -60,7 +60,7 @@
               />
             </picture>
             <p>AQ3D Bot <span>(Java)</span></p>
-          </a>
+          </NuxtLink>
         </li>
         <li class="glide__slide">
           <a

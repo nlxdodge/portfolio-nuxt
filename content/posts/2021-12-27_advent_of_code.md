@@ -31,6 +31,8 @@ int size = 10;
 String[][][] = new String[size][size][size];
 ```
 
-::content-button{url="https://github.com/nlxdodge/Advent-Of-Code" icon="fab fa-github"}
-Advent of Code
+::content-flex-center
+    ::content-button{href="https://github.com/nlxdodge/Advent-Of-Code" icon="fab fa-github"}
+    Advent of Code Repository
+    ::
 ::

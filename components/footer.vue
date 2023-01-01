@@ -34,7 +34,11 @@
           />
           Gerben Veenhof
         </div>
-        <div>{{ currentYear }}</div>
+        <div>
+          <i aria-hidden="true" class="accent fas fa-slash" />
+          <span class="split-span">{{ currentYear }}</span>
+          <i aria-hidden="true" class="accent fas fa-slash" />
+        </div>
         <div>
           Made with <i aria-hidden="true" class="fas fa-heart accent" /> in
           <a class="nuxt-link" href="https://nuxt.com" target="_blank">Nuxt</a>
@@ -51,7 +55,7 @@ const currentYear = new Date().getFullYear();
 
 <style lang="scss">
 footer {
-  margin-top: 25px;
+  margin-top: 50px;
 
   .header {
     font-size: 20px;
@@ -91,6 +95,10 @@ footer {
 
   .flex-box {
     margin-top: 15px;
+
+    .split-span {
+      margin: 0 25px;
+    }
 
     div {
       padding: 5px 0;

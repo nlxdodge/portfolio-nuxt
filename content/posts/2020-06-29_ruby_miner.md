@@ -16,10 +16,12 @@ As a test to see if I could actually use Ruby well, I started the 2019 [Advent o
 
 While I still am not currently done with 2019, in my spare time I try to finish it before the next one comes out.
 
-::content-button{url="https://github.com/nlxdodge/Advent-Of-Code" icon="fab fa-github"}
-Advent of Code
-::
+::content-flex-center
+    ::content-button{href="https://github.com/nlxdodge/Advent-Of-Code" icon="fab fa-github"}
+    Advent of Code Repository
+    ::
 
-::content-button{url="https://www.ruby-lang.org/en/" icon="fas fa-gem"}
-Ruby
+    ::content-button{href="https://www.ruby-lang.org/en/" icon="fas fa-gem"}
+    Ruby Documentation
+    ::
 ::

@@ -4,8 +4,6 @@ author: Gerben Veenhof
 date: 2020-11-26
 header_image: /images/works/aq3d_bot
 category: Java
-links:
-- https://github.com/nlxdodge/C.A.T.E
 ---
 
 ![Discord Bot](/assets/images/works/aq3d_bot.webp)
@@ -31,3 +29,9 @@ client.getEventDispatcher().on(MessageCreateEvent.class).map(MessageCreateEvent:
 ```
 
 For the current state of the project, check out Github with the Link button.
+
+::content-flex-center
+    ::content-button{href="https://github.com/nlxdodge/C.A.T.E" icon="fab fa-github"}
+    C.A.T.E Repository
+    ::
+::

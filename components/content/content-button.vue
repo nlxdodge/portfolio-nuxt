@@ -1,17 +1,49 @@
 <template>
-  <a class="button" :href="props.url" :aria-label="props.text">
-    <i aria-hidden="true" :class="icon"></i>
-    <slot />
+  <NuxtLink
+    v-if="props.href != '#' && internalLink"
+    :to="props.href"
+    class="button"
+  >
+    <i v-if="!iconFlip" aria-hidden="true" :class="icon" />
+    <p>
+      <slot />
+    </p>
+    <i v-if="iconFlip" aria-hidden="true" :class="icon" />
+  </NuxtLink>
+  <a
+    v-else-if="props.href != '#' && !internalLink"
+    class="button"
+    :href="props.href"
+    :aria-label="props.text"
+  >
+    <i v-if="!iconFlip" aria-hidden="true" :class="icon" />
+    <p>
+      <slot />
+    </p>
+    <i v-if="iconFlip" aria-hidden="true" :class="icon" />
   </a>
+  <div v-else class="button">
+    <i v-if="!iconFlip" aria-hidden="true" :class="icon" />
+    <p>
+      <slot />
+    </p>
+    <i v-if="iconFlip" aria-hidden="true" :class="icon" />
+  </div>
 </template>
 
 <script setup>
 const props = defineProps({
-  url: {
+  href: {
     default: "#",
+  },
+  internalLink: {
+    default: false,
   },
   icon: {
     default: "fas fa-chevron-circle-left",
+  },
+  iconFlip: {
+    default: false,
   },
 });
 </script>
@@ -30,17 +62,25 @@ const props = defineProps({
   margin-bottom: 10px;
   text-align: center;
 
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
   i {
     font-size: 1.2em;
     vertical-align: text-bottom;
   }
 
   p {
-    margin-left: 10px;
+    margin: 0 10px;
     display: inline;
   }
 
   &:hover {
+    cursor: pointer;
     color: $template-color;
     background-color: $template-color-accent-opposing;
   }

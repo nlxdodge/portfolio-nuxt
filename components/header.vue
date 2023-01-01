@@ -1,11 +1,11 @@
 <template>
   <header>
     <nav>
-      <a class="icon" href="/" aria-label="Home">
+      <NuxtLink class="icon" to="/" aria-label="Home">
         <i aria-hidden="true" class="fas fa-code" />
-      </a>
-      <a :class="selected('/works')" href="/works">works</a>
-      <a :class="selected('/posts')" href="/posts">posts</a>
+      </NuxtLink>
+      <NuxtLink :class="selected('/works')" to="/works">works</NuxtLink>
+      <NuxtLink :class="selected('/posts')" to="/posts">posts</NuxtLink>
       <div @click="toggle()" class="icon toggle-colors">
         <i aria-hidden="true" class="fas fa-adjust" />
       </div>

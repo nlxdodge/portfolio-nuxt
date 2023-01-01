@@ -8,7 +8,7 @@ I Started of my career with interests in computer science at a very young age. A
 
 With a short list of some of my experiences:
 
-- Backend | Java, Ruby, Pyton, PHP, C# (Unity), C# .NET
+- Backend | Java, Kotlin, Ruby, Pyton, PHP, C# (Unity), C# .NET
 - Frontend | Vue with NPM & Yarn
 - Cloud | AWS (Cloudformation, cloudfront, lambda's, gateway integration etc.)
 

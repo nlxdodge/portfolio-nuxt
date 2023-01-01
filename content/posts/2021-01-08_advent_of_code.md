@@ -42,6 +42,8 @@ So I'm still not done with learning the small details of Python. Or for that fac
 
 Next on our target list is Java for my last project for school.
 
-::content-button{url="https://github.com/nlxdodge/Advent-Of-Code" icon="fab fa-github"}
-Advent of Code
+::content-flex-center
+    ::content-button{href="https://github.com/nlxdodge/Advent-Of-Code" icon="fab fa-github"}
+    Advent of Code Repository
+    ::
 ::

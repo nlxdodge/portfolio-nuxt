@@ -1,7 +1,7 @@
 <template>
   <div class="works">
     <ContentList :query="query" v-slot="{ list }">
-      <a :href="work._path" class="work" v-for="work in list" :key="work._path">
+      <NuxtLink :to="work._path" class="work" v-for="work in list" :key="work._path">
         <picture>
           <source
             :srcset="work.header_image + '.png'"
@@ -18,7 +18,7 @@
           {{ work.title }}
           <span class="sub" v-if="work.category">({{ work.category }})</span>
         </div>
-      </a>
+      </NuxtLink>
     </ContentList>
   </div>
 </template>
@@ -51,12 +51,17 @@ const query = {
       width: 100%;
       height: 245px;
       object-fit: cover;
-      border: 3px solid transparent;
+      border: 2px solid transparent;
       transition: all 0.2s ease-in-out;
     }
 
     &:hover > picture > img {
-      border: 3px solid rgba($template-color-accent-rgb, .25);
+      border: 2px solid rgba($template-color-accent-rgb, .75);
+    }
+
+    &:hover > .work-title {
+      color: $template-color-accent;
+      text-decoration: underline;
     }
 
     .work-title {

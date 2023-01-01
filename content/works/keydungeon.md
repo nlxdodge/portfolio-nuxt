@@ -4,8 +4,6 @@ author: Gerben Veenhof
 date: 2021-08-09
 header_image: /images/works/keydungeon
 category: PHP/JS
-links:
-- https://key.gerbenveenhof.nl/
 ---
 
 Keydungeon was one of my first finished projects, it's a password manager that I wrote myself. So it's not as secure as possible. But I wanted to give it a try anyways.
@@ -37,3 +35,9 @@ But for a portfolio of keydungeon it doesn't really matter to much, as I don't u
 ## 🔨 Upgrades
 
 I do plan to upgrade Keydungeon, but it's on the bottom of the list. So planning to make a new PHP API and a vue 3 front-end for starters.
+
+::content-flex-center
+    ::content-button{href="https://key.gerbenveenhof.nl/" icon="fab fa-github"}
+    KeyDungeon App
+    ::
+::

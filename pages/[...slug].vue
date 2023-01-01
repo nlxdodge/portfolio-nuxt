@@ -5,7 +5,7 @@
       <p>But have a quote instead:</p>
       <p class="error-quote italic">{{ errorText }}</p>
       <div class="center-text margin-top-50">
-        <LinkButton url="/" icon="fas fa-chevron-circle-left">
+        <LinkButton href="/" icon="fas fa-chevron-circle-left">
           Homepage
         </LinkButton>
       </div>
