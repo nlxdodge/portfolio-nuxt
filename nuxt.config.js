@@ -5,7 +5,7 @@ export default defineNuxtConfig({
         highlight: {
             theme: {
                 default: 'monokai',
-                light: 'github-light'
+                light: 'light-plus'
             },
             preload: [
                 'java',

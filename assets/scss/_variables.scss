@@ -4,13 +4,15 @@ html {
     --template-color-accent: #f79f1f;
     --template-color-accent-rgb: 247, 159, 31;
     --template-color-accent-opposing: #7a5113;
+    --template-color-code-block: #333333;
 
     .light {
-        --template-color: #ffffff;
+        --template-color: #f5f5f5;
         --template-color-opposing: #202020;
         --template-color-accent: #00887d;
         --template-color-accent-rgb: 0, 136, 125;
         --template-color-accent-opposing: #00d3c2;
+        --template-color-code-block: #e6e6e6;
     }
 }
 
@@ -19,6 +21,7 @@ $template-color-opposing: var(--template-color-opposing);
 $template-color-accent: var(--template-color-accent);
 $template-color-accent-rgb: var(--template-color-accent-rgb);
 $template-color-accent-opposing: var(--template-color-accent-opposing);
+$template-color-code-block: var(--template-color-code-block);
 
 $template-default-font: 'GeneralSans-Regular', Verdana, Arial, sans-serif;
 $template-header-font: 'GeneralSans-Bold', Arial, Helvetica, sans-serif;

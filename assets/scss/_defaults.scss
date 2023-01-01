@@ -105,7 +105,7 @@ main {
 }
 
 pre {
-  background-color: lighten(#000, 20%);
+  background-color: $template-color-code-block;
   padding: 20px;
   border-radius: 5px;
   overflow-x: scroll;
@@ -128,4 +128,14 @@ pre {
 
 .italic { 
   font-style: italic;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include media(">tablet") {
+    flex-direction: row;
+  }
 }
