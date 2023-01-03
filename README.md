@@ -1,42 +1,23 @@
-# Nuxt 3 Minimal Starter
+[![CodeQL](https://github.com/nlxdodge/portfolio-nuxt/actions/workflows/codeql.yml/badge.svg)](https://github.com/nlxdodge/portfolio-nuxt/actions/workflows/codeql.yml)
+
+# Portfolio build in Nuxt3
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
-
-Make sure to install the dependencies:
+## Setup of the project
 
 ```bash
-# yarn
 yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
-## Development Server
-
-Start the development server on http://localhost:3000
+## Starting the development Server
 
 ```bash
-npm run dev
+yarn dev
 ```
 
-## Production
-
-Build the application for production:
+## Build the application for production:
 
 ```bash
-npm run build
+npx nuxi generate
 ```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
