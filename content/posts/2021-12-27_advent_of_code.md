@@ -1,5 +1,5 @@
 ---
-title: Advent of Code 2021
+title: Advent of Code 2021 (And Java 17)
 author: Gerben Veenhof
 date: 2021-12-27
 ---
