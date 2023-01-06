@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="center-text">
-      Posts ({{ perPage * state.page }} / {{ totalPosts }})
+      Posts ({{ ((state.page - 1) * perPage) + 1 }} / {{ totalPosts }})
     </h1>
     <div class="post-buttons">
       <ContentButton v-if="canMoveTo(-1)" @click="moveTo(-1)"
