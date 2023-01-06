@@ -1,7 +1,12 @@
 <template>
   <div class="works">
     <ContentList :query="query" v-slot="{ list }">
-      <NuxtLink :to="work._path" class="work" v-for="work in list" :key="work._path">
+      <NuxtLink
+        :to="work._path"
+        class="work"
+        v-for="work in list"
+        :key="work._path"
+      >
         <picture>
           <source
             :srcset="work.header_image + '.png'"
@@ -56,7 +61,7 @@ const query = {
     }
 
     &:hover > picture > img {
-      border: 2px solid rgba($template-color-accent-rgb, .75);
+      border: 2px solid $template-color-accent;
     }
 
     &:hover > .work-title {
@@ -66,12 +71,12 @@ const query = {
 
     .work-title {
       text-align: center;
-      font-size: 24px;
+      font-size: 1.75rem;
       font-family: $template-header-font;
       color: $template-color-opposing;
 
       .sub {
-        font-size: 12px;
+        font-size: 1rem;
         font-family: $template-default-font;
       }
     }

@@ -87,7 +87,7 @@ footer {
 
         &:hover {
           transform: scale(1.15, 1.15);
-          color: $template-color-accent-opposing;
+          filter: brightness(0.85);
         }
       }
     }

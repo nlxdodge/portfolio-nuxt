@@ -13,7 +13,7 @@ a {
   color: $template-color-accent;
 
   &:hover {
-    color: $template-color-accent-opposing;
+    filter: brightness(0.85);
   }
 }
 
@@ -126,7 +126,7 @@ pre {
   color: $template-color-accent;
 }
 
-.italic { 
+.italic {
   font-style: italic;
 }
 

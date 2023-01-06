@@ -82,7 +82,7 @@ const props = defineProps({
   &:hover {
     cursor: pointer;
     color: $template-color;
-    background-color: $template-color-accent-opposing;
+    filter: brightness(0.85);
   }
 
   @include media(">=tablet") {

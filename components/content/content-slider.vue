@@ -25,7 +25,10 @@
           </a>
         </li>
         <li class="glide__slide">
-          <NuxtLink to="/work/keydungeon/" aria-label="Check the Keydungeon project">
+          <NuxtLink
+            to="/work/keydungeon/"
+            aria-label="Check the Keydungeon project"
+          >
             <picture>
               <source
                 srcset="/images/works/keydungeon.png"
@@ -44,7 +47,10 @@
           </NuxtLink>
         </li>
         <li class="glide__slide">
-          <NuxtLink to="/work/aq3d_bot/" aria-label="Check the AQ3D Bot project">
+          <NuxtLink
+            to="/work/aq3d_bot/"
+            aria-label="Check the AQ3D Bot project"
+          >
             <picture>
               <source
                 srcset="/images/works/aq3d_bot.png"
@@ -87,10 +93,10 @@
       </ul>
     </div>
     <div class="glide__bullets" data-glide-el="controls[nav]">
-      <div class="glide__bullet" data-glide-dir="=0"></div>
-      <div class="glide__bullet" data-glide-dir="=1"></div>
-      <div class="glide__bullet" data-glide-dir="=2"></div>
-      <div class="glide__bullet" data-glide-dir="=3"></div>
+      <div class="glide__bullet" data-glide-dir="=0"><div></div></div>
+      <div class="glide__bullet" data-glide-dir="=1"><div></div></div>
+      <div class="glide__bullet" data-glide-dir="=2"><div></div></div>
+      <div class="glide__bullet" data-glide-dir="=3"><div></div></div>
     </div>
   </div>
 </template>
@@ -117,22 +123,39 @@ onMounted(() => {
     padding: 20px;
 
     .glide__bullet {
-      background-color: $template-color-accent-opposing;
-      @include transition('all 0.3s ease-in-out');
-      margin: 0 6px;
-      width: 20px;
-      height: 20px;
+      position: relative;
+      background-color: $template-color-accent;
+      @include transition(all 0.2s ease-in-out);
+      margin: 0 10px;
+      width: 24px;
+      height: 24px;
       border-radius: 100%;
 
-      &:hover, &:focus {
+      &:hover,
+      &:focus {
         cursor: pointer;
-        @include transition('all 0.3s ease-in-out');
-        border: 3px solid $template-color-accent;
+        filter: brightness(0.5);
+        @include transition(all 0.2s ease-in-out);
+        background-color: $template-color-accent;
       }
 
-      &.glide__bullet--active {
-        @include transition('all 0.3s ease-in-out');
+      div {
+        z-index: -1;
+        position: absolute;
+        display: block;
+        top: -4px;
+        left: -4px;
+        width: 32px;
+        height: 32px;
+        border-radius: 100%;
         background-color: $template-color-accent;
+        @include transition(all 0.2s ease-in-out);
+        filter: opacity(0);
+      }
+
+      &.glide__bullet--active div {
+        @include transition(all 0.2s ease-in-out);
+        filter: opacity(0.5);
       }
     }
   }

@@ -9,9 +9,8 @@
 <script setup>
 import Footer from "./components/footer.vue";
 import Header from "./components/header.vue";
-</script>
+import { getRandomColor, setRootStyleVariable } from "/public/js/mixins.js";
 
-<style lang="scss">
-.p {
-}
-</style>
+setRootStyleVariable("--template-color-accent", getRandomColor());
+setRootStyleVariable("--template-color-accent-opposing", getRandomColor());
+</script>
