@@ -2,7 +2,7 @@
 title: Advent of Code 2020
 author: Gerben Veenhof
 description: Each year there is the Advent of Code In which you can compete to be the fastest programmer of the north pole 🎅🎄🛷.
-keywords: AOC, Advent, Python
+keywords: AOC, advent, Python
 date: 2021-01-08
 ---
 

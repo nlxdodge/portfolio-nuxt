@@ -3,6 +3,7 @@
     <Head>
       <Title>Works</Title>
       <Meta name="description" content="All the works that I have made over the past years of my career." />
+      <Meta name="keywords" content="works, work, information, career, portfolio" />
     </Head>
     <ContentList :query="query" v-slot="{ list }">
       <NuxtLink

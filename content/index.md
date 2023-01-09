@@ -1,4 +1,8 @@
-# Backend redefined
+---
+title: Backend redefined
+description: Welcome to my humble site, you can find all sorts of informational posts and my proud works. While also giving a sneak peek for you to try it out yourselves.
+keywords: Gerben Veenhof, portfolio, works, posts, backend
+---
 
 Welcome to my humble site, you can find all sorts of informational posts and my proud works. While also giving a sneak peek for you to try it out yourselves.
 

@@ -3,6 +3,7 @@
     <Head>
       <Title>Posts</Title>
       <Meta name="description" content="Small but contentfull posts that I made over my carreer and jobs that I had." />
+      <Meta name="keywords" content="posts, articles, content, career, information, blog, blogging" />
     </Head>
     <h1 class="center-text">
       Posts ({{ ((state.page - 1) * perPage) + 1 }} / {{ totalPosts }})

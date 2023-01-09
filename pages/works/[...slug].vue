@@ -4,6 +4,7 @@
       <Title>>{{ doc.title }}</Title>
       <Meta name="description" :content="doc.description" />
       <Meta name="keywords" :content="doc.keywords" />
+      <Meta name="author" content="Gerben Veenhof" />
     </Head>
     <h1>{{ doc.title }}</h1>
     <ContentRenderer :value="doc" />
