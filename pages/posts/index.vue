@@ -2,11 +2,17 @@
   <div>
     <Head>
       <Title>Posts</Title>
-      <Meta name="description" content="Small but contentfull posts that I made over my carreer and jobs that I had." />
-      <Meta name="keywords" content="posts, articles, content, career, information, blog, blogging" />
+      <Meta
+        name="description"
+        content="Small but contentfull posts that I made over my carreer and jobs that I had."
+      />
+      <Meta
+        name="keywords"
+        content="posts, articles, content, career, information, blog, blogging"
+      />
     </Head>
     <h1 class="center-text">
-      Posts ({{ ((state.page - 1) * perPage) + 1 }} / {{ totalPosts }})
+      Posts ({{ (state.page - 1) * perPage + 1 }} / {{ totalPosts }})
     </h1>
     <div class="post-buttons">
       <ContentButton v-if="canMoveTo(-1)" @click="moveTo(-1)"
