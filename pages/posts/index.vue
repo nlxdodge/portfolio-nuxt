@@ -1,5 +1,9 @@
 <template>
   <div>
+    <Head>
+      <Title>Posts</Title>
+      <Meta name="description" content="Small but contentfull posts that I made over my carreer and jobs that I had." />
+    </Head>
     <h1 class="center-text">
       Posts ({{ ((state.page - 1) * perPage) + 1 }} / {{ totalPosts }})
     </h1>

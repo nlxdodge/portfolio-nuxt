@@ -1,6 +1,8 @@
 ---
 title: Ruby Miner
 author: Gerben Veenhof
+description: In my current year I was learning Ruby as part of my internship. In the beginning I stuggled a lot to understand the dynamic language as is.
+keywords: Ruby, internship
 date: 2020-06-29
 ---
 

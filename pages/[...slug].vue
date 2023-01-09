@@ -1,5 +1,9 @@
 <template>
   <main>
+    <Head>
+      <Title>404</Title>
+      <Meta name="description" content="Page has not been found." />
+    </Head>
     <div class="error center-text">
       <h1>Page has not been found</h1>
       <p>But have a quote instead:</p>

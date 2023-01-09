@@ -1,6 +1,8 @@
 ---
 title: Advent of Code 2021 (And Java 17)
 author: Gerben Veenhof
+description: This year I had the ambition to actually use Java for Advent of Code (AOC). And needless to say, I got pretty far...
+keywords: AOC, Advent, Java
 date: 2021-12-27
 ---
 
