@@ -50,5 +50,10 @@ export default defineNuxtConfig({
                 { name: 'copyright', content: 'Gerben Veenhof' }
             ]
         }
+    },
+    runtimeConfig: {
+        public: {
+            host: "https://gerbenveenhof.nl"
+        }
     }
 })
