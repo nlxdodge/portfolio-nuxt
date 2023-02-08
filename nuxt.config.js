@@ -46,6 +46,10 @@ export default defineNuxtConfig({
     },
     app: {
         head: {
+            htmlAttrs: {
+                lang: 'en'
+            },
+            charset: 'utf-8',
             meta: [
                 { name: 'copyright', content: 'Gerben Veenhof' }
             ]
