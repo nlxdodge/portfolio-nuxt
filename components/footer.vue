@@ -6,21 +6,21 @@
         <a
           href="https://github.com/nlxdodge"
           target="_blank"
-          aria-label="Github link"
+          aria-label="Github"
         >
           <i aria-hidden="true" class="fab fa-github-square" />
         </a>
         <a
           href="https://www.linkedin.com/in/gerbenveenhof/"
           target="_blank"
-          aria-label="Linkedin link"
+          aria-label="Linkedin"
         >
           <i aria-hidden="true" class="fab fa-linkedin" />
         </a>
         <a
           href="https://twitter.com/gerbenveenhof"
           target="_blank"
-          aria-label="Twitter link"
+          aria-label="Twitter"
         >
           <i aria-hidden="true" class="fab fa-twitter-square" />
         </a>
