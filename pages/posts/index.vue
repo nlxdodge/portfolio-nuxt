@@ -57,7 +57,7 @@
 import { computed, reactive } from "vue";
 import ContentButton from "../../components/content/content-button.vue";
 
-const perPage = 5;
+const perPage = 3;
 var currentPage = 1;
 const route = useRoute();
 const router = useRouter();
