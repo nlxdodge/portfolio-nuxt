@@ -2,9 +2,7 @@
 export default defineNuxtConfig({
     ssr: false,
     content: {
-        experimental: {
-            clientDB: true
-        },
+        documentDriven: true,
         highlight: {
             theme: {
                 default: 'monokai',
